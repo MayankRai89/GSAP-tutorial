@@ -133,7 +133,7 @@ function page3Animation() {
       trigger: ".section3",
       start: "top 80%",
       end: "bottom 40%",
-      scrub: 1,
+      // scrub: 1,
       // markers: true
     },
   });
@@ -223,7 +223,7 @@ gsap.to(".case-study-box", {
     trigger: ".case-study-box",
     start: "bottom 50%",
     end: "bottom 10%",
-    scrub: 1,
+    // scrub: 1,
     // markers: true,
   },
   y: 80,

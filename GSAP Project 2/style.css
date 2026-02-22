@@ -200,7 +200,7 @@ header section .left-bx .content .nutritation_bx .cards:nth-child(1) h6 {
 
 header section .left-bx .content p:nth-child(5) {
     font-size: 10px;
-    background: rgb(255, 255, 255, .5);
+    /* background: rgb(255, 255, 255, .5); */
     margin-top: 5px;
 }
 
@@ -339,4 +339,171 @@ header .ml_bx h5 {
     background: #196bd0;
     bottom: 0;
     left: 0;
+}
+
+/* media querry-------------- */
+@media screen and (max-width:1246px) {
+    header {
+        width: 90%;
+        transition: 1s linear;
+    }
+}
+
+@media screen and (max-width:846px) {
+    header {
+        width: 95%;
+    }
+
+    header section .left_bx {
+        padding: 40px 0px 0px 20px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    header {
+        width: 100%;
+        height: 100%;
+    }
+
+    header section {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    header section .left_bx,
+    .right-bx {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header section .left_bx {
+        padding: 10px 0px 0px 20px;
+    }
+
+    header section .right_bx {
+        width: 100%;
+        height: 60%;
+    }
+
+    header section .right_bx img {
+        width: 310px;
+    }
+
+    header section .right-bx .right_btn_bx {
+        top: 45%;
+        z-index: 999999999999999999999;
+    }
+
+    header section .left_bx .content button {
+        margin-top: 20px;
+    }
+
+    header section .left_bx .item_bx {
+        margin-top: 0px;
+    }
+
+    header section .left_bx #left_btn {
+        top: -37%;
+        z-index: 9999999999999999999999999999999999999;
+    }
+
+    header nav ul li {
+        padding: 3px 5px;
+    }
+
+    header nav ul li a {
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:570px) {
+    header nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 5px;
+        right: 30px;
+    }
+
+    header .ml_bx {
+        width: 80px;
+        height: 73px;
+        padding: 10px 0px 0px 5px;
+    }
+}
+
+
+@media screen and (max-width:452px) {
+    header section .left_bx .content .nutritation_bx .cards {
+        width: 66px;
+    }
+
+    header section .left_bx .content .nutritation_bx .cards:nth-child(4) p {
+        margin-top: 6px;
+    }
+
+    header section .left_bx .item_bx .card_pepsi {
+        margin-right: 20px;
+    }
+
+    header section .right_bx .right_btn_bx span {
+        display: none;
+    }
+
+    header section .right_bx img {
+        margin: 20px 0px 0px -120px;
+    }
+
+    header section .left_bx .content p:nth-child(2) {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    header section .left_bx .content .nutritation_bx .cards {
+        width: 55px;
+        height: 70px;
+    }
+
+    header section .left_bx .content .nutritation_bx .cards h3 {
+        font-size: 14px;
+
+    }
+
+    header section .left_bx .content p:nth-child(2) {
+        font-size: 8px;
+    }
+
+    header nav .buy_now_btn {
+        font-size: 8px;
+        padding: 5px 10px;
+    }
+
+    header .ml_bx {
+        width: 62px;
+        height: 25px;
+        padding: 3px 0px 0px 5px;
+    }
+
+    header .ml_bx h3 {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    header .ml_bx h5 {
+        display: none;
+    }
+
+    header section .left_bx {
+        padding: 0;
+    }
 }
